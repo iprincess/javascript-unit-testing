@@ -1,0 +1,25 @@
+{
+  "name": "javascript-unit-testing",
+  "version": "1.0.0",
+  "description": "JavaScript unit testing examples",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Melissa Lane",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "karma": "^4.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-safari-launcher": "^1.0.0",
+    "mocha": "^6.1.4",
+    "puppeteer": "^1.14.0"
+  }
+}
