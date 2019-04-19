@@ -1,6 +1,6 @@
 # javascript-unit-testing
 
-This is a basic example of JavaScript unit testing with the following setup.
+This is a basic example of JavaScript unit testing with the following setup:
 - Karma - test runner [https://karma-runner.github.io/latest/index.html]
 - Mocha - test framework [https://mochajs.org/]
 - Chai - test assertion library (the expect version) [https://www.chaijs.com]
