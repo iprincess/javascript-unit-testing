@@ -13,10 +13,11 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai', 'sinon'],
 
 
     // list of files / patterns to load in the browser
+    // loaded in alphabetical order by karma, and loaded only once
     files: [
       {pattern: 'scripts/**/*.js', included: true, watched: true},
       'tests/**/*.test.js',   
